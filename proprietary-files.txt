@@ -41,5 +41,5 @@ vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
 
 # Graphics (Vulkan)
-vendor/lib/hw/vulkan.sdm845.so
-vendor/lib64/hw/vulkan.sdm845.so
+vendor/lib/hw/vulkan.sdm845.so:vendor/lib/hw/vulkan.qcom.so
+vendor/lib64/hw/vulkan.sdm845.so:vendor/lib64/hw/vulkan.qcom.so
