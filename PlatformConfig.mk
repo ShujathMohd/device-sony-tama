@@ -55,3 +55,5 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NEEDS_DTBOIMAGE ?= true
 
 include device/sony/common/CommonConfig.mk
+include # Inherit from the proprietary version
+-include vendor/sony/tama/BoardConfigVendor.mk
